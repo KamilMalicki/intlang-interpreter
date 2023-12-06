@@ -18,7 +18,9 @@ INC: Inkrementuje wartość rejestru RAX o 1.
 
 DOUBLE: Podwaja wartość rejestru RAX.
 
-MOV: Przenosi wartość między rejestrami RAX i RAY.
+MOV: Przenosi wartość między rejestrami RAX i RAY:
+MOV Y =  przesyła zawartość RAX do RAY.
+MOV X =  przesyła zawartość RAY do RAX
 
 SUM: Dodaje wartości rejestrów RAX i RAY, wynik zapisuje w RAX.
 
@@ -41,9 +43,13 @@ Przykładowy kod:
 Oto przykładowy kod w języku intlang:
 
 SET 5
+
 INC
+
 PRINT $RAX
+
 PRINT "KONIEC"
+
 Ten kod ustawi wartość RAX na 5, zwiększy ją o 1 i wyświetli wynik (6) na ekranie.
 A na samym końcu wyświetla napis KONIEC przed zakończeniem programu.
 
