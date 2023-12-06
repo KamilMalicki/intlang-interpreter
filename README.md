@@ -11,17 +11,29 @@ Instrukcje języka intlang
 Interpreter obsługuje następujące instrukcje:
 
 PRINT: Wypisuje na ekranie podane argumenty.
+
 SET: Ustawia wartość rejestru RAX na podaną liczbę.
+
 INC: Inkrementuje wartość rejestru RAX o 1.
+
 DOUBLE: Podwaja wartość rejestru RAX.
+
 MOV: Przenosi wartość między rejestrami RAX i RAY.
+
 SUM: Dodaje wartości rejestrów RAX i RAY, wynik zapisuje w RAX.
+
 SUB: Odejmuje wartość rejestru RAY od RAX, wynik zapisuje w RAX.
+
 NINC: Dekrementuje wartość rejestru RAX o 1.
+
 GOTO: Przechodzi do określonej linii w kodzie.
+
 PASS: Przechodzi do następnej linii kodu.
+
 CMP: Porównuje wartość rejestru RAX z określoną liczbą i wykonuje skok do podanej linii zależnie od warunku.
+
 INPUT: Pobiera wartość od użytkownika i zapisuje ją do rejestru RAX.
+
 EXIT: Kończy działanie interpretera.
 
 Przykładowy kod:
