@@ -7,7 +7,9 @@ PRINT: Wypisuje podane argumenty do konsoli.
 SKŁADNIA:
 
 a) PRINT 'co chcesz napisać'
+
 b) PRINT $RAX
+
 c) PRINT $RAY
 
 SET: Ustawia wartość rejestru RAX. 
